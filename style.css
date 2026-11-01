@@ -58,3 +58,65 @@
 @media(min-width:701px){[data-title="Minha escolha"] .content{padding-right:52%}[data-title="Minha escolha"] h2{font-size:clamp(42px,4.7vw,75px)}}
 .bia-logo-mark{display:block;width:clamp(120px,16vw,240px);height:auto;margin-top:clamp(16px,3vh,30px)}
 @media(max-width:700px){.acrobata{background:linear-gradient(90deg,#130e0cf7,#130e0cda 70%,#130e0c55),url('assets/rose-acrobata-ampliada.png') right center/auto 100% no-repeat #130e0c}[data-title="Minha escolha"]{background:linear-gradient(90deg,#110c0af7,#110c0ad8 70%,#110c0a78),url('assets/rose-bia-parceria.png') 75% center/cover no-repeat #1d1512}.bia-logo-mark{width:clamp(110px,28vw,180px)}}
+
+
+/* --- Estilos Expandidos do Pitch BIA 360 --- */
+[data-title="BIA para educadores"]{color:#fff;background:linear-gradient(90deg,#130e19f7 0%,#130e19d9 35%,#130e1955 65%,#130e1910 100%),url('assets/bia-educadora.png') center/cover no-repeat #160d1b}
+[data-title="BIA para educadores"] .eyebrow{color:#d39de2}[data-title="BIA para educadores"] em{color:#d789ec}
+@media(min-width:701px){[data-title="BIA para educadores"] .content{padding-right:44%}[data-title="BIA para educadores"] h2{font-size:clamp(42px,5vw,84px)}}
+@media(max-width:700px){[data-title="BIA para educadores"]{background-position:63% center;background-image:linear-gradient(90deg,#120d19f7 0%,#120d19d0 65%,#120d1970 100%),url('assets/bia-educadora.png')}}
+
+/* Founder Status Card */
+.founder-box{display:grid;grid-template-columns:1.15fr 1fr;gap:clamp(18px,2.5vw,36px);margin-top:clamp(20px,3.5vh,38px)}
+.founder-card{background:linear-gradient(145deg,rgba(70,30,86,.45),rgba(23,17,29,.9));border:1px solid rgba(215,137,236,.35);border-radius:16px;padding:clamp(18px,2.2vw,28px);box-shadow:0 15px 45px rgba(0,0,0,.5)}
+.founder-badge-tag{display:inline-block;background:linear-gradient(90deg,#bf70d5,#e3b2ed);color:#170f1e;font-weight:700;font-size:clamp(11px,1vw,14px);letter-spacing:.15em;padding:5px 14px;border-radius:20px;margin-bottom:14px;text-transform:uppercase}
+.founder-card h3{font-family:Georgia,serif;font-size:clamp(22px,2.2vw,32px);margin:0 0 10px;color:#fff}
+.founder-card p{font-size:clamp(15px,1.25vw,19px);line-height:1.45;color:#e8ded0;margin:0 0 14px}
+.founder-features{display:grid;gap:10px;font-size:clamp(14px,1.2vw,18px)}
+.founder-features div{display:flex;align-items:flex-start;gap:10px;color:#f7f2ea}
+.founder-features div b{color:#d789ec;min-width:20px}
+
+/* Pitch Split com Mockup WhatsApp */
+.pitch-split{display:grid;grid-template-columns:1.05fr 1.15fr;gap:clamp(20px,3vw,45px);align-items:center;margin-top:clamp(15px,2.5vh,28px)}
+.chat-container{background:#111b21;border:1px solid #222e35;border-radius:18px;padding:clamp(14px,1.8vw,22px);box-shadow:0 24px 60px rgba(0,0,0,.65);font-family:Manrope,sans-serif}
+.chat-header{display:flex;align-items:center;gap:12px;padding-bottom:12px;border-bottom:1px solid #202c33;margin-bottom:14px}
+.chat-avatar{width:42px;height:42px;border-radius:50%;border:2px solid #25d366;object-fit:cover}
+.chat-info b{display:block;font-size:15px;color:#fff}
+.chat-info span{font-size:12px;color:#25d366}
+.chat-msg{display:flex;flex-direction:column;gap:10px}
+.bubble{max-width:88%;padding:10px 14px;border-radius:12px;font-size:clamp(13px,1.1vw,16px);line-height:1.35;position:relative}
+.bubble.client{align-self:flex-start;background:#202c33;color:#e9edef;border-top-left-radius:2px}
+.bubble.bia{align-self:flex-end;background:#005c4b;color:#e9edef;border-top-right-radius:2px}
+.bubble .time{display:block;font-size:10px;color:rgba(255,255,255,.55);text-align:right;margin-top:4px}
+.chat-tag{display:inline-block;margin-top:12px;background:rgba(215,137,236,.15);border:1px solid rgba(215,137,236,.3);padding:6px 12px;border-radius:8px;font-size:12px;color:#e3b2ed}
+
+/* ROI Comparativo */
+.roi-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,2.5vw,36px);margin-top:clamp(20px,3vh,34px)}
+.roi-card{padding:clamp(20px,2.5vw,32px);border-radius:16px;background:#181315;border:1px solid #3d2a23}
+.roi-card.highlight{background:linear-gradient(145deg,#32163d,#1a0f21);border:2px solid #bf70d5;box-shadow:0 0 40px rgba(191,112,213,.25)}
+.roi-card h3{font-family:Georgia,serif;font-size:clamp(22px,2.2vw,32px);margin:0 0 6px}
+.roi-card .roi-badge{display:inline-block;padding:4px 10px;border-radius:12px;font-size:12px;font-weight:700;letter-spacing:.1em;margin-bottom:10px;text-transform:uppercase}
+.roi-badge.red{background:#5c1a1a;color:#ffb3b3}
+.roi-badge.green{background:#164d30;color:#85f5be}
+.roi-card .roi-price{font:400 clamp(38px,4.5vw,66px) Georgia,serif;color:#e3b2ed;margin:10px 0}
+.roi-card .roi-price small{font:700 .45em Manrope}
+.roi-card ul{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:10px;font-size:clamp(14px,1.2vw,18px)}
+.roi-card ul li{display:flex;align-items:flex-start;gap:10px}
+.roi-card ul li span{min-width:20px;font-weight:700}
+.roi-card.highlight ul li span{color:#85f5be}
+.roi-card:not(.highlight) ul li span{color:#ff8585}
+
+/* Checklist Onboarding */
+.checklist-wrapper{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(20px,3vw,38px);margin-top:clamp(20px,3vh,32px)}
+.checklist-items{display:grid;gap:10px}
+.check-item{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.04);border:1px solid rgba(215,137,236,.2);padding:12px 18px;border-radius:10px;font-size:clamp(14px,1.2vw,18px)}
+.check-num{background:#bf70d5;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:13px;flex-shrink:0}
+.aulas-box{background:linear-gradient(145deg,#2c1638,#160d1b);border:1px solid #bf70d5;border-radius:14px;padding:clamp(20px,2.5vw,30px);display:flex;flex-direction:column;justify-content:center}
+.aulas-box b{font-size:clamp(18px,1.8vw,26px);color:#fff;display:block;margin-bottom:8px}
+.aulas-box p{font-size:clamp(14px,1.2vw,17px);line-height:1.45;color:#e4d7e8;margin:0 0 14px}
+.aulas-box .aulas-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);padding:6px 14px;border-radius:20px;font-size:13px;color:#d789ec;font-weight:700}
+
+@media(max-width:700px){
+  .founder-box,.pitch-split,.roi-grid,.checklist-wrapper{grid-template-columns:1fr;gap:14px}
+  .founder-card,.roi-card,.chat-container,.aulas-box{padding:16px}
+}

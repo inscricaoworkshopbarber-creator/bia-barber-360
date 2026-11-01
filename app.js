@@ -31,7 +31,7 @@
     const title = slide.dataset.title;
     if (title === 'Abertura') return 'rose-retrato.png';
     if (title === 'Muitos papéis' || title === 'Sonhos realizados') return window.matchMedia('(min-width: 701px) and (max-aspect-ratio: 3/2)').matches ? 'familia-ambiente-43.png' : 'familia-ambiente.png';
-    return ({ 'Mulher polvo': 'rose-metafora-polvo.png', 'Equilibrar': 'rose-acrobata-ampliada.png', 'A virada': 'rose-reflexao.png', 'Não cabe tudo': 'rose-varios-lugares.png', 'Minha escolha': 'rose-bia-parceria.png', 'Conheça a BIA': 'bia.png', 'BIA para barbearias': 'bia-barbeira.png', 'BIA para escolas': 'bia-educadora.png', 'Visagismo': 'visagismo-antes-depois.png', 'Colorimetria': 'colorimetria-antes-depois.png', 'Encerramento': 'qr-biabarber.png' })[title];
+    return ({ 'Mulher polvo': 'rose-metafora-polvo.png', 'Equilibrar': 'rose-acrobata-ampliada.png', 'A virada': 'rose-reflexao.png', 'Não cabe tudo': 'rose-varios-lugares.png', 'Minha escolha': 'rose-bia-parceria.png', 'Conheça a BIA': 'bia.png', 'BIA para barbearias': 'bia-barbeira.png', 'BIA para escolas': 'bia-educadora.png', 'BIA para educadores': 'bia-educadora.png', 'Visagismo': 'visagismo-antes-depois.png', 'Colorimetria': 'colorimetria-antes-depois.png', 'Encerramento': 'qr-biabarber.png' })[title];
   }
   const clamp = n => Math.max(0, Math.min(slides.length - 1, n));
   function show(n, update = true, fromGesture = false) {
